@@ -1,0 +1,37 @@
+main{
+  font-family: sans-serif;
+  padding-left: 1em;
+}
+
+.flower_label{
+  color: #673ab7;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.flower_name{
+  font-size: larger;
+  font-weight: bolder;
+  color: #ff9800;
+}
+
+select{
+  margin-left: 0.5em;
+  padding: 8px;
+}
+
+h1{
+  color: #4caf50;
+  text-shadow: 2px 2px 5px #81c784;
+}
+
+h2 {
+  color: #00bcd4;
+}
+
+img.flower_image{
+  background: #03a9f4;
+  box-shadow: 4px 4px 10px #03a9f4;
+  margin-left: 2em;
+  border: solid 2px #03a9f4;
+}
