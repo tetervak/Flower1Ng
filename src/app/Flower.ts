@@ -3,7 +3,7 @@ export class Flower {
   public imgSrc: string;
   constructor(name) {
     this.label = Flower.capitalizeFirstLetter(name);
-    this.imgSrc = `../assets/images/flowers/${name}_large.jpeg`;
+    this.imgSrc = `assets/images/flowers/${name}_large.jpeg`;
   }
 
   // make the first letter capital
