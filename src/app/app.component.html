@@ -4,9 +4,9 @@
   <p>
     <label for="select_flower" class="flower_label">Flower:</label>
     <select id="select_flower" class="flower_name" #s (change)="selectFlower(s.value)">
-      <option *ngFor="let f of flowers; let i=index;" value="{{i}}" >{{f.label}}</option>
+      <option *ngFor="let f of flowers; let i=index;" [value]='i'>{{f.label}}</option>
     </select>
   </p>
-  <p><img src="{{flower.imgSrc}}" alt="{{flower.label}}" class="flower_image"></p>
+  <p><img [src]='flower.imgSrc' [alt]='flower.label' class="flower_image"></p>
 </main>
 <app-footer></app-footer>
